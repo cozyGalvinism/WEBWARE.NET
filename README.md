@@ -4,6 +4,13 @@ Ein einfacher Wrapper für die WEBSERVICES der WEBWARE
 
 ## Benutzung
 
+Hinzufügen zum Projekt:
+
+```
+dotnet nuget add source --name "cozyGalvinism" "https://nuget.pkg.github.com/cozyGalvinism/index.json"
+dotnet add package WEBWARE.NET
+```
+
 Einen Client erstellen und registrieren:
 
 ```cs
