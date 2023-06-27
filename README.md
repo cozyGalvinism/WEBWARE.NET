@@ -6,8 +6,17 @@ Ein einfacher Wrapper für die WEBSERVICES der WEBWARE
 
 Hinzufügen zum Projekt:
 
-```
+**Windows:**
+
+```cmd
 dotnet nuget add source --name "cozyGalvinism" "https://nuget.pkg.github.com/cozyGalvinism/index.json" --username "[YOUR GITHUB USERNAME]" --password "[YOUR GITHUB PASSWORD OR ACCESS TOKEN]"
+dotnet add package WEBWARE.NET
+```
+
+**Linux:**
+
+```cmd
+dotnet nuget add source --name "cozyGalvinism" "https://nuget.pkg.github.com/cozyGalvinism/index.json" --username "[YOUR GITHUB USERNAME]" --password "[YOUR GITHUB PASSWORD OR ACCESS TOKEN]" --store-password-in-clear-text
 dotnet add package WEBWARE.NET
 ```
 
