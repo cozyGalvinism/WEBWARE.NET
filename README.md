@@ -1,6 +1,6 @@
 # WEBWARE.NET
 
-Ein einfacher Wrapper f�r die WEBSERVICES der WEBWARE
+Ein einfacher Wrapper für die WEBSERVICES der WEBWARE
 
 ## Benutzung
 
